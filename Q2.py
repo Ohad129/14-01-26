@@ -6,8 +6,8 @@
 #   הדפס את ממוצע הציונים
 
 i: int = 0
-small: int = 50
-big: int = 50
+small: int = 99
+big: int = 1
 summ: int = 0
 while i < 20:
     grade: int = int(input('enter grade:'))
@@ -22,4 +22,5 @@ while i < 20:
         print('invalid grade, enter again')
 print('lowest grade is:', small)
 print('highest grade is:', big)
+
 print('the average grade is:', summ // i)
